@@ -195,7 +195,7 @@ rgb color map dict for BRISC2025 1+3 classes.<br>
 <pre>
 [mask]
 mask_file_format = ".png"
-;background;black,  meningioma:blue, glioma:green, 'pituitary tumor:red
+;background;black,  meningioma:blue, glioma:green, pituitary tumor:red
 ; rgb_map = {(0, 0, 0), (0,0,255):1,    (0,255,0):2,   (255, 0, 0):3}
 
 </pre>
