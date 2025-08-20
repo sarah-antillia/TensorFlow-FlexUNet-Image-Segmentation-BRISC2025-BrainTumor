@@ -60,45 +60,6 @@ BRISC is a high-quality, expert-annotated MRI dataset curated for brain tumor se
 It addresses common limitations in existing datasets (e.g., BraTS, Figshare), 
 including class imbalance, narrow tumor focus, and annotation inconsistencies.
 <br>
-<!--
-This dataset includes:<br>
-
-6,000 T1-weighted MRI images<br>
-Four classes: Glioma, Meningioma, Pituitary Tumor, and No Tumor<br>
-Pixel-wise segmentation masks validated by physicians and radiologists
-Three anatomical planes: Axial, Coronal, and Sagittal
-Clean, stratified training (5,000) and testing (1,000) splits
-📦 Dataset Contents
-The BRISC dataset is organized into two main tasks:
-
-Classification Task — for multi-class tumor identification
-Segmentation Task — for pixel-wise tumor region annotation
-📁 Folder Descriptions
-classification_task/
-Contains subfolders organized by tumor class (glioma, meningioma, pituitary, no_tumor)
-Each class folder includes raw T1-weighted MRI slices in .jpg format
-Supports training of image-level classification models
-segmentation_task/
-Contains paired MRI images/ and corresponding binary masks/
-All slices are from T1-weighted MRI scans
-Masks are pixel-level annotations created and verified by medical experts
-Image and mask filenames are aligned
-🧪 Technical Details
-BRISC2025_Class_Distribution_Based_On_MRI_Planes
-
-Total samples: 6,000 (5,000 training / 1,000 testing)
-Annotation quality: Reviewed and corrected by medical experts
-Imaging modality: Only T1-weighted MRI
-Planes: Balanced representation across axial, coronal, and sagittal
-Tumor classes: Balanced distribution across four categories
-Component	Example	Meaning
-Prefix	brisc2025	Dataset identifier
-Split	test	Data split: train or test
-Index	00010	Zero‑padded image number
-Tumor	gl	gl = glioma, me = meningioma, pi = pituitary
-View	ax	ax = axial, co = coronal, sa = sagittal
-Sequence	t1	MRI sequence (e.g. t1 for T1‑weighted images)
--->
 <br>
 <b>Citation & Publication</b><br>
 This dataset is introduced in our publication:<br>
