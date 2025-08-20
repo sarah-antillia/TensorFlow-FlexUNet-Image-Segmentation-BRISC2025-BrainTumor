@@ -256,7 +256,7 @@ python ../../../src/TensorFlowFlexUNetEvaluator.py ./train_eval_infer_aug.config
 </pre>
 
 Evaluation console output:<br>
-<img src="./projects/TensorFlowFlexUNet/BRISC2025/asset/evaluate_console_output_at_epoch41.png" width="920" height="auto">
+<img src="./projects/TensorFlowFlexUNet/BRISC2025/asset/evaluate_console_output_at_epoch40.png" width="920" height="auto">
 <br><br>
 
 <a href="./projects/TensorFlowFlexUNet/BRISC2025/evaluation.csv">evaluation.csv</a><br>
